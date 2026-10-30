@@ -1,0 +1,32 @@
+# ==========================================
+# Shadow Hosting Bot - Requirements
+# ==========================================
+
+# --- Core Bot Framework ---
+pyTelegramBotAPI==4.14.0
+
+# --- Environment Variables ---
+python-dotenv==1.0.0
+
+# --- Web Server (Keep Alive) ---
+Flask==3.0.0
+
+# --- HTTP Requests ---
+requests==2.31.0
+
+# --- System Monitoring ---
+psutil==5.9.6
+
+# --- SQLite (built-in, but explicit for safety) ---
+# sqlite3 is part of Python standard library
+
+# --- Additional dependencies your bot may need ---
+# Uncomment if needed for user scripts
+# numpy
+# pandas
+# pillow
+# beautifulsoup4
+# opencv-python
+# PyYAML
+# python-dateutil
+# SQLAlchemy
